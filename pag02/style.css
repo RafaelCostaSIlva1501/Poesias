@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    background-image: linear-gradient(to bottom,#533f4a,#9676A5,#9676A5,#533f4a);
+    min-height: 100vh;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+header{
+    background-color: #110F10;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    padding-top: 7px;
+    font-variant: small-caps;
+}
+
+header > p{
+    padding-bottom: 15px;
+}
+
+footer{
+    background-color: #110F10;
+    color: white;
+    text-align: center;
+}
+
+footer > p{
+    padding: 5px;
+}
+
+.proximo{
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
+
+section{
+    padding: 10vh;
+    padding-left: 20px;
+    line-height: 1.5em;
+    font-family: 'Rubik';
+    font-weight: lighter;
+    font-size: 3vw;
+}
+
+.normal{
+    color: black;
+    box-shadow: 6px 6px 13px 0px #110F10;
+}
+
+.normal > p{
+    background-color: #17180f00;
+    padding: 20px;
+    width: 60vw;
+}
+
+.img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url('../imagens/arvore-ceu-keke.jpeg');
+}
+
+.img > p{
+    background-color: #110f104b;
+    color: white;
+    padding: 20px;
+    width: 60vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.mudar{
+    color: rgba(255, 255, 255, 0.185);
+    display: block;
+    padding-top: 20px;
+    font-variant: small-caps;
+}
+
+.mudar > #voltar{
+    margin-left: 20px;
+    padding-right: 10px;
+}
+
+.mudar > #continuar{
+    padding-left: 20px;
+}
